@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Courier New', monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #terminal {
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: auto;
+    width: 60%;
+    height: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .prompt {
+    font-weight: bold;
+    display: inline-block;
+    color: chartreuse;
+  }
+
+  .commandValue{
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  form {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  #command-input {
+    cursor: url('/cursor.png'), auto;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  #command-input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
